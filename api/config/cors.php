@@ -21,7 +21,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => array_filter(['http://localhost:4200', env('CONSOLE_HOST'), 'http://ec2-52-71-60-114.compute-1.amazonaws.com:4200', Utils::addWwwToUrl(env('CONSOLE_URL'))]),
+    'allowed_origins' => array_filter(['http://localhost:4200', env('CONSOLE_HOST'), 'http://ec2-100-25-202-149.compute-1.amazonaws.com:4200', Utils::addWwwToUrl(env('CONSOLE_URL'))]),
 
     'allowed_origins_patterns' => [],
 
